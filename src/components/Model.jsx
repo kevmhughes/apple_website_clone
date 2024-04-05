@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import gsap from "gsap";
 import ModelView from "./ModelView";
 import { yellowImg } from "../utils";
-import { models } from "../constants"
+import { models, sizes } from "../constants"
 
 import * as THREE from "three";
 import { Canvas } from "@react-three/fiber";
@@ -12,7 +12,7 @@ import { View } from "@react-three/drei";
 const Model = () => {
   const [size, setSize] = useState("small");
   const [model, setModel] = useState({
-    title: "iPhone 125 Pro in Natural Titanium",
+    title: "iPhone 15 Pro in Natural Titanium",
     color: ["#8F8A81", "#FFE7B9", "#6F6C64"],
     img: yellowImg,
   });
@@ -82,8 +82,17 @@ const Model = () => {
             <div className="flex-center">
               <ul className="color-container">
                 {models.map((item, index) => (
-                <li key={index} className="mx-2 size-6 rounded-full" style={{backgroundColor: item.color[0]}} onClick={() => setModel(item)}/> ) )}
+                <li key={index} className="mx-2 size-6 cursor-pointer rounded-full" style={{backgroundColor: item.color[0]}} onClick={() => setModel(item)}/> ) )}
                 </ul>
+                <button className="size-btn-container">
+                  {sizes.map(({label, value}) => (
+                    <span key={label} className="size-btn" style={{ backgroundColor: size === value ? "white" : "transparent", color: size === value ? "black" : "white"}} 
+                    onClick={() => setSize(value)}
+                    >
+                      {label}
+                    </span>
+                  ))}
+                </button>
             </div>
           </div>
         </div>

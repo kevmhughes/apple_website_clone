@@ -1,6 +1,6 @@
-import { Html, OrbitControls, PerspectiveCamera, View } from "@react-three/drei"
+import { OrbitControls, PerspectiveCamera, View } from "@react-three/drei"
 
-import * as THREE from 'three'
+//import * as THREE from 'three'
 import Lights from './Lights';
 import Loader from './Loader';
 import IPhone from './IPhone';
@@ -20,15 +20,17 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
 
       <Lights />
 
-      {/* <OrbitControls 
+      <OrbitControls 
+        /*     
+        target={new THREE.Vector3(0, 0 ,0)}
+        */
         makeDefault
         ref={controlRef}
         enableZoom={false}
         enablePan={false}
         rotateSpeed={0.4}
-        target={new THREE.Vector3(0, 0 ,0)}
         onEnd={() => setRotationState(controlRef.current.getAzimuthalAngle())}
-      /> */} 
+      /> 
 
       <group ref={groupRef} name={`${index === 1} ? 'small' : 'large`} position={[0, 0 ,0]}>
         <Suspense fallback={<Loader />}>

@@ -28,7 +28,7 @@ const ModelView = ({ index, groupRef, gsapType, controlRef, setRotationState, si
         ref={controlRef}
         enableZoom={false}
         enablePan={false}
-        rotateSpeed={0.4}
+        rotateSpeed={1}
         onEnd={() => setRotationState(controlRef.current.getAzimuthalAngle())}
       /> 
 

@@ -12,7 +12,7 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS.
 ## Desktop:
 
 <kbd>
-<img src="readme-images1/desktop-image.png" />
+<img src="readme-images/desktop-image1.png" />
 </kbd>
 
 ## Mobile:

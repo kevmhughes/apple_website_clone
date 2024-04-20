@@ -18,8 +18,17 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS.
 ## Mobile:
 
 <kbd>
-<img src="readme-images/mobile-image.png" width="250"/>
+<img src="readme-images/mobile-image1.png" width="250"/>
 </kbd>
+
+<kbd>
+<img src="readme-images/mobile-image2.png" width="250"/>
+</kbd>
+
+<kbd>
+<img src="readme-images/mobile-image3.png" width="250"/>
+</kbd>
+
 
 # Tools Used
 * React.js

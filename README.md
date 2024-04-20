@@ -1,11 +1,11 @@
 # Apple iPhone 15 Pro Website Clone
 
-This is a fully responsive website clone which uses customised GSAP animations and Three.js 3D effects to allow the user to animate 3D iPhone models. 
+Fully responsive website clone using customised GSAP animations and Three.js 3D effects. 
 
 Use the app [here]((https://bright-gelato-d9b778.netlify.app))
 
 # Description
-This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It highlights the effective use of GSAP (Greensock Animations) and Three.js for displaying and manipulating iPhone 15 Pro models in various colors and shapes.
+This is a clone of Apple's iPhone 15 Pro website using React.js and TailwindCSS. It utilises GSAP (Greensock Animations) to animate various sections of the website including images and text. It also uses Three.js to display display and allow the user to manipulate the iPhone 15 Pro models in various colors and shapes.
 
 # Take a Look at the Website
 

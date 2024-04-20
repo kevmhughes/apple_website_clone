@@ -1,6 +1,6 @@
 # Apple iPhone 15 Pro Website Clone
 
-#### This is a fully responsive website clone which uses customised GSAP animations and Three.js 3D effects to allow the user to animate 3D iPhone models. 
+This is a fully responsive website clone which uses customised GSAP animations and Three.js 3D effects to allow the user to animate 3D iPhone models. 
 
 Use the app [here]((https://bright-gelato-d9b778.netlify.app))
 

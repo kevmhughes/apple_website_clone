@@ -38,3 +38,4 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and Tailwind CSS
 * GSAP (Greensock)
 * Vite
 * Tailwind CSS
+* Netlify (free hosting)

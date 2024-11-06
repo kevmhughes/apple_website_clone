@@ -10,6 +10,7 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and Tailwind CSS
 ## Mobile (live mockup):
 
 <img src="readme-images/preview.gif" alt="App Demo" width="300"/>
+
 See the website [here](https://bright-gelato-d9b778.netlify.app)
 
 ## Desktop:

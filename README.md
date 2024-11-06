@@ -9,6 +9,8 @@ This is a clone of Apple's iPhone 15 Pro website using React.js and Tailwind CSS
 
 # Take a Look at the Website
 
+<img src="readme-images/preview.gif" alt="App Demo" width="300"/>
+
 ## Desktop:
 
 <kbd>
